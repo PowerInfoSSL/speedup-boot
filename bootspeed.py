@@ -12,7 +12,7 @@ ww=[]
 for i in oo:
     ww.append(i[:-1])
 
-print 'Current Module nust be Behinded: ' , ww
+print 'Optimization : ' , ww
 
 for i in ww:
     print i

@@ -12,11 +12,16 @@ ww=[]
 for i in oo:
     ww.append(i[:-1])
 
-print 'ww is: ' , ww
+print 'Current Module nust be Behinded: ' , ww
 
 for i in ww:
     print i
 
+try:
+    ww.remove('pcnet32')
+    print 'Networking is Activated'
+except:
+    print 'Not Found'
 
 for i in ww:
     print 'Deatach module %s\n' % i
